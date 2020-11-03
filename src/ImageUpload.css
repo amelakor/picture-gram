@@ -1,0 +1,29 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  position: sticky;
+  background: #fefefe;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  max-width: 800px;
+  margin: auto;
+}
+.imageupload input {
+  width: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.imageupload input[type="file"] {
+  border: 0;
+}
+.imageupload__progress {
+  width: 100%;
+  margin-bottom: 10px;
+}

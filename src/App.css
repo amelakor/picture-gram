@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+}
+.app__header {
+  object-fit: contain;
+  padding: 10px;
+  border-bottom: 1px solid #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+.app__posts {
+  padding: 10px;
+}
+.app__headerImage {
+  max-height: 50px;
+  max-width: 100%;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.app__modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+}

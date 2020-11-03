@@ -1,0 +1,15 @@
+.alert {
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  width: 500px;
+  height: 30px;
+}
+.alert-danger {
+  background: red;
+}
+.alert-success {
+  background: green;
+}
